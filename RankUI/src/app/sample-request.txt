@@ -1,0 +1,21 @@
+{
+  "Inputs": {
+    "input1": {
+      "ColumnNames": [
+        "rank",
+        "score"
+      ],
+      "Values": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    }
+  },
+  "GlobalParameters": {}
+}

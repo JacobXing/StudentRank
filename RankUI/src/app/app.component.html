@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to Student Rank UI!
+  </h1>
+</div>
+<div>
+  <input type="number" name="score" [(ngModel)]="score"/>
+  <button (click)="click()">Predict</button>
+</div>
+
+<div *ngFor="let result of results">
+  Score: {{result.score}} Rank: {{result.rank}}
+</div>
